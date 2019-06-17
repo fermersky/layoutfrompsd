@@ -1,0 +1,130 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page_cell {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.page_row h2 {
+    text-align: center;
+    margin: 40px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+/* ================ HEADER ================ */
+
+.header {
+    margin-top: 35px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+.header__logo {
+    float: left;
+}
+
+.header__contact {
+    float: right;
+    text-align: right;
+}
+
+.header__mail {
+    margin-top: 6px;
+}
+
+.tel {
+    
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+    line-height: 16px;
+}
+
+.email {
+    font-weight: 300;
+    line-height: 16px;
+    font-size: 16px;
+    color: #808080;
+}
+
+/* ================ NAVIGATION ================ */
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px;
+}
+
+.nav__item {
+    font-weight: 300;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    color: #f44336;
+}
+
+/* ================ SLIDER ================ */
+
+.slider__item {
+    background: url('../images/1.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 36%;
+}
+
+.owl-dots {
+    height: 0;
+}
+
+/* ================ About ================*/
+
+.about_desc {
+    
+}
+
+.about_desc p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about_desc__first_p {
+    margin-bottom: 27px;
+}
+
+/* ================ Popular ================*/
+
+.popular_container {
+    display: flex;
+
+}
+
+.popular_item {
+    width: 580px;
+    height: 317px;
+}
+
+.popular_item__title {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 300;
+}
