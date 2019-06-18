@@ -114,13 +114,37 @@ body {
 /* ================ Popular ================*/
 
 .popular_container {
-    display: flex;
-
+    display: grid;
+    grid-template-rows: repeat(2, 320px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
 }
 
 .popular_item {
-    width: 580px;
-    height: 317px;
+    background: #000;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+}
+
+.popular_item img {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: brightness(100%);
+}
+
+.popular_item__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 300;
+    font-size: 29px;
+}
+
+.popular_item:hover img {
+    filter: brightness(50%);
 }
 
 .popular_item__title {
