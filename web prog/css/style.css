@@ -92,8 +92,26 @@ body {
     padding-top: 36%;
 }
 
+/* ================ SLIDER BUTTONS ================*/
+
 .owl-dots {
-    height: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+.owl-carousel button.owl-dot {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 0 6px;
+}
+
+.owl-carousel button.owl-dot.active {
+    background: #000;
+    border-color: #000;
 }
 
 /* ================ About ================*/
